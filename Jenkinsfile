@@ -7,7 +7,7 @@ pipeline {
         
           steps{
              echo 'Building application...'
-            sh 'ls'
+            sh 'ls -l'
          
           }
       }
