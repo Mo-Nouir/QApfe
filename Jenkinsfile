@@ -15,7 +15,6 @@ pipeline {
         
           steps{
              echo 'Testing application...'
-            bat 'ls'
           }
       } 
       stage("deploy"){
